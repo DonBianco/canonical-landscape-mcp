@@ -1,0 +1,25 @@
+# Landscape MCP Server Requirements
+# For managing Ubuntu/Debian desktop and laptop systems through Canonical Landscape API
+
+# ============================================================================
+# CORE MCP SERVER DEPENDENCIES (for stdio version)
+# ============================================================================
+mcp==1.24.0                    # MCP Server Framework
+landscape-api-py3==0.9.0       # Landscape API Client
+requests==2.32.5               # HTTP Client
+
+# ============================================================================
+# HTTP SERVER DEPENDENCIES (for deployable HTTP version)
+# Install with: uv pip install starlette uvicorn sse-starlette
+# ============================================================================
+# starlette>=0.27.0            # ASGI framework
+# uvicorn>=0.23.0              # ASGI server
+# sse-starlette>=1.6.0         # SSE support for MCP HTTP transport
+
+# ============================================================================
+# OPTIONAL DASHBOARD DEPENDENCIES
+# Install with: uv pip install streamlit pandas plotly
+# ============================================================================
+# streamlit>=1.28.0            # Web dashboard framework
+# pandas>=2.0.0                # Data manipulation
+# plotly>=5.17.0               # Interactive visualizations

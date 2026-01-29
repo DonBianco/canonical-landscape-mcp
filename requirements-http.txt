@@ -1,0 +1,12 @@
+# Landscape MCP HTTP Server Requirements
+# Use this file for deploying the HTTP version on a VM
+
+# Core MCP Server
+mcp==1.24.0
+landscape-api-py3==0.9.0
+requests==2.32.5
+
+# HTTP Server
+starlette>=0.27.0
+uvicorn[standard]>=0.23.0
+sse-starlette>=1.6.0

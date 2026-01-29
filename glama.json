@@ -1,0 +1,133 @@
+{
+  "name": "landscape-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for Canonical Landscape infrastructure management with tools, prompts, and resources for AI-powered infrastructure analysis",
+  "license": "MIT",
+  "author": "Landscape MCP Contributors",
+  "repository": "https://github.com/yourusername/landscape-mcp",
+  "homepage": "https://github.com/yourusername/landscape-mcp",
+  "categories": [
+    "infrastructure",
+    "systems-administration",
+    "monitoring",
+    "devops",
+    "ubuntu"
+  ],
+  "keywords": [
+    "landscape",
+    "ubuntu",
+    "debian",
+    "infrastructure",
+    "mcp",
+    "claude-ai",
+    "systems-management",
+    "package-management",
+    "security-updates",
+    "compliance",
+    "monitoring"
+  ],
+  "capabilities": {
+    "tools": 6,
+    "prompts": 5,
+    "resources": 8,
+    "resourceTemplates": 2
+  },
+  "tools": [
+    {
+      "name": "landscape_query_computers",
+      "description": "Query computers by tag/hostname/status"
+    },
+    {
+      "name": "landscape_query_packages",
+      "description": "Search packages across infrastructure"
+    },
+    {
+      "name": "landscape_query_alerts",
+      "description": "Get current system alerts"
+    },
+    {
+      "name": "landscape_query_offline",
+      "description": "Get offline computers and not-pinging systems"
+    },
+    {
+      "name": "landscape_fast_package_lookup",
+      "description": "Fast package lookup on specific computer"
+    },
+    {
+      "name": "landscape_query_activities",
+      "description": "Get activities and audit logs"
+    }
+  ],
+  "prompts": [
+    {
+      "name": "system_health_check",
+      "description": "Comprehensive infrastructure health analysis with recommendations"
+    },
+    {
+      "name": "package_audit",
+      "description": "Audit packages for security updates and compliance"
+    },
+    {
+      "name": "incident_investigation",
+      "description": "Investigate system incidents using activity logs"
+    },
+    {
+      "name": "capacity_planning",
+      "description": "Analyze infrastructure capacity and growth trends"
+    },
+    {
+      "name": "compliance_report",
+      "description": "Generate compliance status reports for audits"
+    }
+  ],
+  "resources": [
+    {
+      "uri": "landscape://infrastructure/summary",
+      "name": "Infrastructure Summary"
+    },
+    {
+      "uri": "landscape://alerts/active",
+      "name": "Active Alerts"
+    },
+    {
+      "uri": "landscape://computers/online",
+      "name": "Online Computers"
+    },
+    {
+      "uri": "landscape://computers/offline",
+      "name": "Offline Computers"
+    },
+    {
+      "uri": "landscape://activities/recent",
+      "name": "Recent Activities"
+    },
+    {
+      "uri": "landscape://packages/security-updates",
+      "name": "Security Updates Available"
+    },
+    {
+      "uriTemplate": "landscape://computers/{tag}",
+      "name": "Computers by Tag"
+    },
+    {
+      "uriTemplate": "landscape://activities/{hostname}",
+      "name": "Machine Activity Log"
+    }
+  ],
+  "requirements": {
+    "python": ">=3.10"
+  },
+  "security": {
+    "authentication": "api-key",
+    "encryption": "https",
+    "notes": "Requires valid Landscape API credentials (API key and secret)"
+  },
+  "installationMethods": [
+    "pip",
+    "source"
+  ],
+  "compatibility": {
+    "mcp": "1.24.0+",
+    "python": ["3.10", "3.11", "3.12"]
+  }
+}

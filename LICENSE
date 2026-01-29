@@ -1,0 +1,61 @@
+MIT License
+
+Copyright (c) 2025 Canonical Landscape MCP Community Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+ADDITIONAL DISCLAIMERS AND NOTICES
+================================================================================
+
+UNOFFICIAL PROJECT NOTICE:
+This project is NOT an official Canonical Ltd. product. It is NOT affiliated
+with, endorsed by, or supported by Canonical Ltd. This is a community-driven,
+independent project created for interfacing with Canonical Landscape via its
+public API.
+
+TRADEMARK NOTICE:
+"Canonical", "Landscape", and "Ubuntu" are trademarks of Canonical Ltd. Use of
+these names in this project is for identification and compatibility purposes
+only and does not imply endorsement, sponsorship, or affiliation.
+
+NO CANONICAL INVOLVEMENT:
+Canonical Ltd. has no involvement in the development, maintenance, or support
+of this project. For official Canonical Landscape support, visit:
+https://ubuntu.com/landscape
+
+USE AT YOUR OWN RISK:
+This software is provided by community contributors without any guarantees.
+Users assume all risks associated with using this software, including but not
+limited to data loss, system downtime, security vulnerabilities, or any other
+consequences.
+
+NO WARRANTY:
+In addition to the MIT License disclaimer above, the authors explicitly state
+that this software comes with NO WARRANTY of fitness for any particular purpose,
+NO WARRANTY of security, and NO WARRANTY of compatibility with any specific
+Landscape version or configuration.
+
+LIMITATION OF LIABILITY:
+Under no circumstances shall the authors, contributors, or copyright holders be
+held liable for any damages, claims, or issues arising from the use of this
+software, including but not limited to direct, indirect, incidental, special,
+exemplary, or consequential damages.
+
+For full disclaimer, see DISCLAIMER.md in this repository.
